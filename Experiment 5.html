@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Salary Management System</title>
+    <link rel="stylesheet" href="Experiment 5.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Employee Salary Management System</h2>
+        
+        <div class="form-group">
+            <input type="text" id="empName" placeholder="Employee Name">
+        </div>
+        <div class="form-group">
+            <input type="text" id="empID" placeholder="Employee ID">
+        </div>
+        <div class="form-group">
+            <input type="number" id="empSalary" placeholder="Salary">
+        </div>
+        <div class="form-group">
+            <input type="text" id="empDept" placeholder="Department">
+        </div>
+
+        <div class="button-group">
+            <button id="btnAdd" class="btn-main">Add Employee</button>
+            
+            <div class="row-buttons">
+                <button id="btnDisplayAll">Display All</button>
+                <button id="btnFilterSalary">Salary > 50000</button>
+                <button id="btnTotalSalary">Total Salary</button>
+                <button id="btnAvgSalary">Average Salary</button>
+            </div>
+            
+            <button id="btnCountDept">Count by Department</button>
+        </div>
+
+        <div class="result-section" id="resultContainer"></div>
+    </div>
+
+    <script src="Experiment 5.js"></script>
+</body>
+</html>
